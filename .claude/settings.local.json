@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(head -15 grep -n \"channelId\\\\|channel\" /home/anirudh/Drive/figma/apps/mme-playground/src/modules/credentials/credentials.css)",
+      "mcp__figma__get_design_context"
+    ]
+  }
+}
