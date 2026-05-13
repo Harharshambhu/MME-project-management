@@ -1,0 +1,39 @@
+mme-prototype/
+│
+├── Global Navigation/
+│   ├── TopNav                      — Global Search, Notifications, Settings, Theme Control
+│   └── Sidebar                     — Workspace Identity, Quick Navigation, User Profile Footer
+│       ├── Company Channels        — Mandatory (#general, #announcements) and Department Channels
+│       ├── Event Channels          — Active and Archived Event Channel Clusters
+│       └── Direct Messages         — Recent private conversations (1-on-1 and groups)
+│
+├── Primary Views/
+│   ├── Overview Page               — Landing dashboard -> /overview
+│   │   ├── Event Lifecycle         — Visual board of event stages
+│   │   ├── Activity Feed           — Stream of recent workspace activities
+│   │   └── Directory               — Lists of Company Channels, Event Channels, and DMs
+│   │
+│   ├── Events Hub                  — Central event management -> /events
+│   │   ├── Create Event Modal      — Form to spin up new events
+│   │   └── Event Dashboard         — Detailed event control panel -> /event-dashboard
+│   │       ├── Credentials Module  — Manage staff/vendor badges and access
+│   │       ├── Guestlists Module   — Manage attendees and VIPs
+│   │       ├── Catering Module     — Manage F&B requirements
+│   │       ├── Assets Module       — Manage digital and physical assets
+│   │       └── Forms Module        — Event-specific surveys and data collection
+│   │
+│   ├── Channel Chat Page           — Active chat interface for teams/events -> /channel
+│   │   ├── Channel Header          — Channel Info, Huddles, Settings, Search
+│   │   ├── Message Feed            — Rich text bubbles, File/Poll cards, Reactions, Thread links
+│   │   ├── Input Area              — Rich text editor, Formatting, Attachments
+│   │   └── Contextual Panels/
+│   │       ├── Channel Details     — 'About', 'Members', 'Pinned Messages', 'Files' sidebar
+│   │       ├── Invite Modal        — Modal to invite teammates to the channel
+│   │       ├── Thread Panel        — Dedicated right-sidebar for threaded message replies
+│   │       └── Profile Sidebar     — User context pane (Organization, Role, Status)
+│   │
+│   └── Direct Messages Page        — Private conversation management hub -> /dms
+│       ├── Search & Filters        — Filter by All, Internal, External, Clients, Vendors
+│       ├── DM List View            — Contact rows with unread badges, previews, and metadata
+│       └── Active DM View          — Shared chat interface architecture with Channel Chat
+│           └── Profile Sidebar     — Contact's organization, role, and mutual context
